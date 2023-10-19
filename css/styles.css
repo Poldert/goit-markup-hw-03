@@ -52,6 +52,13 @@ img {
 }
 
 button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
     background-color: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFFFFF);
@@ -78,6 +85,7 @@ body{
 /*header styles*/
 
 .page-header {
+    border-bottom: 1px solid #e7e9fc;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -85,14 +93,12 @@ body{
 .container-header {
     display: flex;
     justify-content: space-between;
-
 }
 
 .page-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 .menu {
@@ -102,6 +108,7 @@ body{
 
 .address-menu {
     display: flex;
+    gap: 40px;
 }
 
 .logo{
@@ -148,7 +155,6 @@ body{
 
 .address-link{
     font-size: 16px;
-    
     line-height: 1.5;
         /* 150% */
     letter-spacing: 0.02em;
@@ -162,20 +168,26 @@ body{
 
 /*HERO section*/
 .hero {
-    background-color: var(--NAVY-BLUE, #2E2F42);;
+    background-color: var(--NAVY-BLUE, #2E2F42);
+    padding: 188px 0;
 }
-
+/*h1*/
 .main-head {
     font-size: 56px;
     text-align: center;
+    max-width: 496px;
     font-weight: 700;
     line-height: 1.07;
      /* 107.143% */
     letter-spacing: 0.02em;
     color: var(--WHITE, #FFFFFF);
+    margin-left: auto;
+    margin-right: auto;
 }
-/*HERO section*/
 
+/*HERO section END*/
+
+/*h2*/
 .secondaru-head {
     font-size: 36px;
     text-align: center;
@@ -189,7 +201,7 @@ body{
     margin-right: auto;
     margin-bottom: 72px;
 }
-
+/*h3*/
 .third-head {
     font-size: 20px;
     font-weight: 500;
@@ -199,7 +211,7 @@ body{
     color: var(--NAVY-BLUE, #2E2F42);
     margin-bottom: 8px;
 }
-
+/*p*/
 .text-info {
     font-size: 16px;
     line-height: 1.5;
@@ -219,7 +231,7 @@ body{
 .menu-info {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .text-benefits {
@@ -249,7 +261,7 @@ body{
 .menu-team {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px; 
+    gap: 24px; 
     text-align: center;
 }
 
@@ -257,7 +269,7 @@ body{
 
 /*Portfolio section*/
 
-.page-portfolio{
+.page-portfolio {
     background-color: var(--WHITE, #FFFFFF);
     border: 0 0 1px 0;
     border-color: #E7E9FC;
@@ -266,7 +278,7 @@ body{
 .portfolio-info {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
+    gap: 24px;
 
 }
 
@@ -279,6 +291,8 @@ body{
 /*Futer section*/
 
 .futer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -302,10 +316,12 @@ body{
 
 .page-futer {
     background-color: var(--NAVY-BLUE, #2E2F42);
+    padding: 100px 0;
 }
 
 .futer-text-info {
     color: var(--CLOUD, #F4F4FD);
+    max-width: 264px;
 }
 
 /*Futer section END*/
