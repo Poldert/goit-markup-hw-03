@@ -135,7 +135,7 @@ body {
     color: var(--OCEAN, #404BBF);
 }
 
-.menu-item,
+.menu-link,
 .address-menu-item {
     padding: 24px 0;
 }
