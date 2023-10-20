@@ -80,6 +80,7 @@ body {
 .container-header {
     display: flex;
     justify-content: space-between;
+    padding: 24px 0;
 }
 
 .page-nav {
@@ -136,12 +137,12 @@ body {
 .menu-link:focus {
     color: var(--OCEAN, #404BBF);
 }
-
+/*
 .menu-item,
 .address-menu-item {
     padding: 24px 0;
 }
-
+*/
 .page-address{
     font-style: normal;
 }
